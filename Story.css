@@ -1,0 +1,16 @@
+body{
+  height: 2000px;
+  background-color:dimgray;
+  background-image: url(3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gozitu li{
+  color: whitesmoke;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  font-size: 40px;
+  text-align: center;
+  list-style: none;
+  padding-top:100px; 
+}

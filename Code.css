@@ -1,0 +1,69 @@
+body{
+  background-color: black;
+}
+.title li{ 
+  color: whitesmoke;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  font-size: 90px;
+  text-align: center;
+  list-style: none;
+  padding-top:30px;
+}
+.honbun li{
+  color: whitesmoke;
+  font-family: "Toppan Bunkyu Midashi Mincho";
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+}
+.teisi{
+  font-size: 40px;
+}
+.robo{
+  font-size: 30px;
+}
+.kidou{
+  font-size: 40px;
+}
+.hontou{
+  font-size: 40px;
+}
+.dainibu{
+  font-size: 40px;
+}
+.bikkuri{
+  font-size: 40px;
+}
+.itido{
+  font-size: 40px;
+}
+.syobun{
+  font-size: 40px;
+}
+.red li{
+  color: red;
+}
+.click button{
+  position: absolute;
+  top: 860px;
+  left: 700px;
+}
+input {
+  position: absolute;
+  top:860px;
+  left: 750px;;
+  display: inline-block;
+  border-radius: 5%;
+  font-size: 12pt;
+  text-align: center;
+  cursor: pointer;
+  padding: 13px 23px;
+  background: #ffffff;
+  color: #000000;
+  line-height: 1em;
+  transition: .3s;
+  box-shadow: 4px 4px #666666;
+}
+input:hover {
+  box-shadow: none;
+}

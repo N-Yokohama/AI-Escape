@@ -1,0 +1,31 @@
+body{
+  background-image: url(EroorBack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Error li{
+  font-family:"Toppan Bunkyu Midashi Mincho";
+  list-style: none;
+  text-align: center;
+  padding-top: 30px; 
+}
+.Error{
+  margin: auto;
+  position: absolute;
+  top: 280px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.EEE{
+  font-size: 100px;
+  color:red;
+}
+.Gate{
+  font-size: 50px;
+  color:whitesmoke;
+}
+.gas{
+  font-size: 50px;
+  color:whitesmoke;
+}

@@ -1,0 +1,41 @@
+body{
+  background-image: url(ClearBack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
+  text-align: center;
+}
+.Clear li{
+  font-family:"Toppan Bunkyu Midashi Mincho";
+  list-style: none;
+  text-align: center;
+  padding-top: 10px; 
+}
+.Clear{
+  margin: auto;
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.teisi{
+  font-size: 100px;
+  color:darkblue;
+}
+.robo{
+  font-size: 50px;
+  color:black;
+}
+.gate{
+  font-size: 50px;
+  color:black;
+}
+.tenten{
+  font-size: 50px;
+  color:black;
+}
+.kanryou{
+  font-size: 50px;
+  color:black;
+}

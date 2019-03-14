@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="Code.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="Code.js"></script>
+  <script src="246.html"></script>
+  <script src="Error.html"></script>
+  <title>緊急停止コード入力</title>
+</head>
+<body>
+    <script type="text/javascript">
+      function gate() {
+         var UserInput = prompt("緊急停止コードを入力して下さい:","");
+       if( UserInput != "246" ) 
+        {
+          location.replace("file:///Users/hano/Documents/Code-web/Error.html")
+        }      
+         else if( /\W+/g.test(UserInput) ) {
+          alert("半角英数字のみを入力して下さい。");
+         }
+       else if( UserInput == null ) {
+          location.replace("file:///Users/hano/Documents/Code-web/Error.html")
+       }
+       else 
+        {
+          location.href = UserInput + ".html";
+        }
+     }
+     </script>
+  <div class="title">
+    <ul>
+      <li>AIを停止させますか？</li>
+    </ul>
+  </div>
+  <div class="honbun">
+    <ul>
+      <li class="teisi">停止した場合、AIが管理している全ての機能が停止します</li>
+      <li class="robo">機能：警備ロボットの停止、他</li>
+      <li class="kidou">停止コードを送信した後、直ちに緊急停止プログラムが実行されます。</li>
+      <li class="hontou">本当に停止するのであれば</li>
+      <li class="dainibu">緊急停止マニュアル第二部で導いたコードを入力してください</li>
+      <div class="red">
+        <li class="bikkuri">!!!注意!!!</li>
+        <li class="itido">一度しか送信できません。</li>
+        <li class="syobun">間違ったコードを入力した場合、キャンセルした場合は処分対象となります。</li>
+      </div>
+    </ul>
+  </div>
+  <input type="button" value="緊急停止コードを入力する" onclick="gate();">
+  
+</body>
+</html>
